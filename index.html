@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - UNINTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação Fixo exigido pela atividade -->
+    <header class="navbar">
+        <div class="logo">Meu Portfólio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">🌙 Escuro</button>
+    </header>
+
+    <!-- Seção 1: Sobre Mim -->
+    <section id="sobre" class="section-content">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <!-- DICA: Altere o texto abaixo com os seus dados reais para não perder pontos! -->
+            <p>Olá! Meu nome é Rafael Santos Araujo. Sou estudante da UNINTER e este é o meu portfólio online.</p>
+            <p>Gosto de tecnologia, aprender coisas novas e passar o tempo livre estudando desenvolvimento web.</p>
+        </div>
+    </section>
+
+    <!-- Seção 2: Formação -->
+    <section id="formacao" class="section-content">
+        <div class="container">
+            <h2>Formação</h2>
+            <div class="card">
+                <h3>Graduação em Tecnologia</h3>
+                <p><strong>Instituição:</strong> UNINTER</p>
+                <p>Estudando os fundamentos de desenvolvimento de sistemas e programação web.</p>
+            </div>
+            <div class="card">
+                <h3>Idiomas</h3>
+                <p>Português (Nativo) | Inglês (Básico)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Portfólio -->
+    <section id="portfolio" class="section-content">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="project-grid">
+                <div class="card">
+                    <h3>Projeto 1: Meu Primeiro Site</h3>
+                    <p>Este site portfólio criado para a atividade prática de Fundamentos de Programação Web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Contato -->
+    <section id="contato" class="section-content">
+        <div class="container">
+            <h2>Contato</h2>
+            <!-- Formulário obrigatório -->
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" placeholder="Rafael Santos Araujo">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" placeholder="seuemail@dominio.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" rows="5" placeholder="Digite sua mensagem..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="form-feedback" class="feedback-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por [Seu Nome]. Atividade Prática UNINTER.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
